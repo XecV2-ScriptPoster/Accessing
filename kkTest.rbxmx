@@ -113,31 +113,51 @@ local function buildPayload(playersCount, key, jobId, channelType)
 end
 
 local function sendOrEditWebhook(channel, playersCount, key, jobId)
-	local url = getWebhook(channel)
+	local webhookConfig = getWebhook(channel)
 	local payload = buildPayload(playersCount, key, jobId, channel)
 
 	local isGame = (channel == "game")
 	local messageIdVar = isGame and gameMessageId or serverMessageId
-	local urlVar = isGame and gameWebhookUrl or serverWebhookUrl
+	local savedConfig = isGame and gameWebhookConfig or serverWebhookConfig
 
 	local success, err = pcall(function()
-		if messageIdVar and urlVar then
-			HttpService:RequestAsync({
-				Url = urlVar .. "/messages/" .. messageIdVar,
+		if messageIdVar and savedConfig then
+			local response = HttpService:RequestAsync({
+				Url = savedConfig.Url .. "?messageId=" .. messageIdVar,
 				Method = "PATCH",
-				Headers = { ["Content-Type"] = "application/json" },
+				Headers = {
+					["Content-Type"] = "application/json",
+					["X-Roblox-Secret"] = savedConfig.Secret,
+					["X-Webhook-Channel"] = savedConfig.Channel,
+				},
 				Body = HttpService:JSONEncode(payload),
 			})
+			if not response.Success then
+				error(response.StatusCode .. ": " .. response.Body)
+			end
 		else
-			local response = HttpService:PostAsync(url, HttpService:JSONEncode(payload), Enum.HttpContentType.ApplicationJson, true)
-			local decoded = HttpService:JSONDecode(response)
+			local response = HttpService:RequestAsync({
+				Url = webhookConfig.Url,
+				Method = "POST",
+				Headers = {
+					["Content-Type"] = "application/json",
+					["X-Roblox-Secret"] = webhookConfig.Secret,
+					["X-Webhook-Channel"] = webhookConfig.Channel,
+				},
+				Body = HttpService:JSONEncode(payload),
+			})
+			if not response.Success then
+				error(response.StatusCode .. ": " .. response.Body)
+			end
+
+			local decoded = HttpService:JSONDecode(response.Body)
 			if decoded and decoded.id then
 				if isGame then
 					gameMessageId = decoded.id
-					gameWebhookUrl = url
+					gameWebhookConfig = webhookConfig
 				else
 					serverMessageId = decoded.id
-					serverWebhookUrl = url
+					serverWebhookConfig = webhookConfig
 				end
 			end
 		end
@@ -147,6 +167,7 @@ local function sendOrEditWebhook(channel, playersCount, key, jobId)
 		warn("Webhook request failed: " .. tostring(err))
 	end
 end
+
 
 local function checkAndUpdate()
 	local pc = #Players:GetPlayers()
