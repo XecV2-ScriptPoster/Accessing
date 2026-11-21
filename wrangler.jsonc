@@ -1,5 +1,5 @@
 {
   "name": "accessing",
-  "main": "worker.js",
-  "compatibility_date": "2026-11-21"
+  "main": "Worker.js",
+  "compatibility_date": "2026-11-22"
 }
