@@ -177,11 +177,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>8.52651283e-14</R01>
 						<R02>1</R02>
-						<R10>5.23901061e-21</R10>
+						<R10>7.90481905e-21</R10>
 						<R11>1</R11>
 						<R12>-8.52651283e-14</R12>
 						<R20>-1</R20>
-						<R21>8.65244411e-21</R21>
+						<R21>5.98663648e-21</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -250,7 +250,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_head1</string>
+					<string name="Name">RightFace</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -576,11 +576,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>-1.84741111e-13</R01>
 						<R02>1</R02>
-						<R10>-1.93229371e-21</R10>
+						<R10>-1.61866927e-21</R10>
 						<R11>1</R11>
 						<R12>1.84741111e-13</R12>
 						<R20>-1</R20>
-						<R21>-1.01643962e-20</R21>
+						<R21>-1.04780212e-20</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -682,468 +682,6 @@
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 						<bool name="DefinesCapabilities">false</bool>
 						<string name="Name">Mesh</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBXCFA827A81F8A40B8965A51AE5685FDC1">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.66255188</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>-8.47033917e-21</R01>
-							<R02>1.20370612e-33</R02>
-							<R10>8.47033997e-21</R10>
-							<R11>1</R11>
-							<R12>-1.42108385e-13</R12>
-							<R20>0</R20>
-							<R21>1.42108398e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBXD5C5FBE3E07A48878B65FAB6022C09D0</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Bottom left</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX8E860BF8ADBA4DFE9A01DCD1473DA1CA">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.332000732</X>
-							<Y>-0.424779415</Y>
-							<Z>0.233109474</Z>
-							<R00>1</R00>
-							<R01>-2.44928021e-16</R01>
-							<R02>-3.99037905e-23</R02>
-							<R10>2.44928021e-16</R10>
-							<R11>1</R11>
-							<R12>1.62920486e-07</R12>
-							<R20>0</R20>
-							<R21>-1.62920486e-07</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBX8554DAC1A2EA4D369E21578C0A2C8994</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Default</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX73D797F337764B099CA2B670F34F154D">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.66292572</X>
-							<Y>0.0931634903</Y>
-							<Z>0.00298976898</Z>
-							<R00>1</R00>
-							<R01>-5.47723822e-21</R01>
-							<R02>1.32321606e-33</R02>
-							<R10>5.47723822e-21</R10>
-							<R11>1</R11>
-							<R12>-2.4158453e-13</R12>
-							<R20>0</R20>
-							<R21>2.4158453e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBX2C9DB0114CB14D5DAA6F423E93CD098D</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Eye left</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX0C88025DA8D241959434FD6E9373CE26">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>0</X>
-							<Y>0.0931634903</Y>
-							<Z>0.00298976898</Z>
-							<R00>1</R00>
-							<R01>-8.01833989e-21</R01>
-							<R02>2.27894908e-33</R02>
-							<R10>8.01833989e-21</R10>
-							<R11>1</R11>
-							<R12>-2.8421704e-13</R12>
-							<R20>0</R20>
-							<R21>2.8421704e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBX0EA9BFE18A6541D8A315DB0F25A57048</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Eye right</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBXE79F888C4A1747A69A90B1D5F5EFF0CD">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.66255188</X>
-							<Y>0.27948761</Y>
-							<Z>-0.0206956863</Z>
-							<R00>1</R00>
-							<R01>-5.47723822e-21</R01>
-							<R02>1.32321606e-33</R02>
-							<R10>5.47723822e-21</R10>
-							<R11>1</R11>
-							<R12>-2.4158453e-13</R12>
-							<R20>0</R20>
-							<R21>2.4158453e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBXB8D8E2235E5B413483326CBF8586490E</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Eyebrow left</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX1C1FA99032FB44D284EBC1F3890B99EE">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>0</X>
-							<Y>0.27948761</Y>
-							<Z>-0.0206956863</Z>
-							<R00>1</R00>
-							<R01>-7.17130371e-21</R01>
-							<R02>1.9362967e-33</R02>
-							<R10>7.17130452e-21</R10>
-							<R11>1</R11>
-							<R12>-2.70006212e-13</R12>
-							<R20>0</R20>
-							<R21>2.70006212e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBXEBDFDE2CA106400DB86508BBCCDD10C9</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Eyebrow right</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBXF1E8966B089642509D3AC3003D23E218">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.66255188</X>
-							<Y>0.247313499</Y>
-							<Z>-9.53674316e-07</Z>
-							<R00>1</R00>
-							<R01>-7.17130371e-21</R01>
-							<R02>1.9362967e-33</R02>
-							<R10>7.17130452e-21</R10>
-							<R11>1</R11>
-							<R12>-2.70006212e-13</R12>
-							<R20>0</R20>
-							<R21>2.70006212e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBX19DDCE804C82424390B83D1315F11D3C</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Eyelid left</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX793D9CC927D943E3BB963BA9454EB395">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>0</X>
-							<Y>0.24731636</Y>
-							<Z>-9.53674316e-07</Z>
-							<R00>1</R00>
-							<R01>-8.86537365e-21</R01>
-							<R02>2.64567485e-33</R02>
-							<R10>8.86537365e-21</R10>
-							<R11>1</R11>
-							<R12>-2.98427895e-13</R12>
-							<R20>0</R20>
-							<R21>2.98427895e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBX442DA25A6A9A4608A1B2A31C3DF99345</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Eyelid right</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX9408F07556894870AF35065B10CFCC42">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.332473755</X>
-							<Y>0.15527153</Y>
-							<Z>0.688353539</Z>
-							<R00>1</R00>
-							<R01>-3.62636021e-21</R01>
-							<R02>0</R02>
-							<R10>3.78317192e-21</R10>
-							<R11>1</R11>
-							<R12>-2.13162821e-13</R12>
-							<R20>0</R20>
-							<R21>2.13162821e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBX288B6EBC6B4D438E9E16F051AEA0C22F</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_hair</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBXE4D6A2B1F3734E95AC8B23120AAD9AB8">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.332473755</X>
-							<Y>-0.0103497505</Y>
-							<Z>0.636656761</Z>
-							<R00>1</R00>
-							<R01>-5.3204261e-21</R01>
-							<R02>0</R02>
-							<R10>5.47723863e-21</R10>
-							<R11>1</R11>
-							<R12>-2.4158453e-13</R12>
-							<R20>0</R20>
-							<R21>2.4158453e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBX6C71E331AB88472F9F8C3968611AE048</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_head</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX3506F28B7820472F8D8E2B17EF3D8D38">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.669151306</X>
-							<Y>-0.0114865303</Y>
-							<Z>0.642698288</Z>
-							<R00>1</R00>
-							<R01>-7.0144924e-21</R01>
-							<R02>0</R02>
-							<R10>7.17130452e-21</R10>
-							<R11>1</R11>
-							<R12>-2.7000624e-13</R12>
-							<R20>0</R20>
-							<R21>2.7000624e-13</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX7BDF8EB7AE0C4F008A7B2EB3C3EA6124</Ref>
-						<Ref name="Part1">RBXB24011D09A0046E09B3732E5EB591036</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_head1</string>
 						<BinaryString name="SerializedOverrides"></BinaryString>
 						<int64 name="SourceAssetId">-1</int64>
 						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -1304,11 +842,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>-1.62920671e-07</R01>
 						<R02>1</R02>
-						<R10>2.44926088e-16</R10>
+						<R10>2.44929556e-16</R10>
 						<R11>1</R11>
 						<R12>1.62920671e-07</R12>
 						<R20>-1</R20>
-						<R21>-6.87656244e-15</R21>
+						<R21>-6.87656583e-15</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -1436,11 +974,11 @@
 							<R00>4.37113847e-08</R00>
 							<R01>-1.62920628e-07</R01>
 							<R02>0.999999881</R02>
-							<R10>2.44931435e-16</R10>
+							<R10>2.44934903e-16</R10>
 							<R11>1</R11>
 							<R12>1.62920657e-07</R12>
 							<R20>-0.999999881</R20>
-							<R21>-6.87655609e-15</R21>
+							<R21>-6.87655948e-15</R21>
 							<R22>4.37113847e-08</R22>
 						</CoordinateFrame>
 						<bool name="CanCollide">true</bool>
@@ -1569,11 +1107,11 @@
 							<R00>8.74227695e-08</R00>
 							<R01>-1.62920514e-07</R01>
 							<R02>1</R02>
-							<R10>7.3664287e-15</R10>
+							<R10>7.36643209e-15</R10>
 							<R11>1</R11>
 							<R12>1.62920514e-07</R12>
 							<R20>-1</R20>
-							<R21>-6.87653407e-15</R21>
+							<R21>-6.87653746e-15</R21>
 							<R22>8.74227695e-08</R22>
 						</CoordinateFrame>
 						<bool name="CanCollide">true</bool>
@@ -2102,11 +1640,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>5.68434189e-14</R01>
 						<R02>1</R02>
-						<R10>3.54494472e-21</R10>
+						<R10>4.48581823e-21</R10>
 						<R11>1</R11>
 						<R12>-5.68434189e-14</R12>
 						<R20>-1</R20>
-						<R21>5.71602523e-21</R21>
+						<R21>4.77515212e-21</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -2175,7 +1713,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_head</string>
+					<string name="Name">UpperHead</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -2208,6 +1746,216 @@
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 						<bool name="DefinesCapabilities">false</bool>
 						<string name="Name">Mesh</string>
+						<BinaryString name="SerializedOverrides"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX03DF72D2C6FA4EA4A1BA7B0AF6DF0401">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>-0.336677551</X>
+							<Y>-0.00113677979</Y>
+							<Z>0.00604152679</Z>
+							<R00>1</R00>
+							<R01>3.08682156e-23</R01>
+							<R02>0</R02>
+							<R10>3.41900081e-21</R10>
+							<R11>1</R11>
+							<R12>-2.84217094e-14</R12>
+							<R20>0</R20>
+							<R21>2.84217094e-14</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="Enabled">true</bool>
+						<Ref name="Part0">RBX6C71E331AB88472F9F8C3968611AE048</Ref>
+						<Ref name="Part1">RBXB24011D09A0046E09B3732E5EB591036</Ref>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">skM1_admin_head1</string>
+						<BinaryString name="SerializedOverrides"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX169B87FB55C941E3B78C2CB83A818EE1">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0</X>
+							<Y>0.165621281</Y>
+							<Z>0.0516967773</Z>
+							<R00>1</R00>
+							<R01>2.79175173e-21</R01>
+							<R02>0</R02>
+							<R10>-5.96381066e-22</R10>
+							<R11>1</R11>
+							<R12>2.84217128e-14</R12>
+							<R20>0</R20>
+							<R21>-2.84217128e-14</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="Enabled">true</bool>
+						<Ref name="Part0">RBX6C71E331AB88472F9F8C3968611AE048</Ref>
+						<Ref name="Part1">RBX288B6EBC6B4D438E9E16F051AEA0C22F</Ref>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">skM1_admin_hair</string>
+						<BinaryString name="SerializedOverrides"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX3B1E3B38F59647888E6743C7B73D9A30">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0.000473022461</X>
+							<Y>-0.414429665</Y>
+							<Z>-0.403547287</Z>
+							<R00>1</R00>
+							<R01>-2.44920847e-16</R01>
+							<R02>0</R02>
+							<R10>2.44925082e-16</R10>
+							<R11>1</R11>
+							<R12>1.62920728e-07</R12>
+							<R20>0</R20>
+							<R21>-1.62920728e-07</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="Enabled">true</bool>
+						<Ref name="Part0">RBX6C71E331AB88472F9F8C3968611AE048</Ref>
+						<Ref name="Part1">RBX8554DAC1A2EA4D369E21578C0A2C8994</Ref>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Default</string>
+						<BinaryString name="SerializedOverrides"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBXA3F44918D87F4545A130125A479CA7C2">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0.0016708374</X>
+							<Y>-0.745671749</Y>
+							<Z>-0.496688843</Z>
+							<R00>0.999999881</R00>
+							<R01>-2.44925506e-16</R01>
+							<R02>0</R02>
+							<R10>2.44930429e-16</R10>
+							<R11>1</R11>
+							<R12>1.62920713e-07</R12>
+							<R20>0</R20>
+							<R21>-1.62920685e-07</R21>
+							<R22>0.999999881</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="Enabled">true</bool>
+						<Ref name="Part0">RBX6C71E331AB88472F9F8C3968611AE048</Ref>
+						<Ref name="Part1">RBXFEE7647690334FF6A4E380D446471694</Ref>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">DF1</string>
+						<BinaryString name="SerializedOverrides"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBXE87B837FAE094C8290E2619DA3C2AB96">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>-0.332946777</X>
+							<Y>-0.416516304</Y>
+							<Z>-0.403915405</Z>
+							<R00>1</R00>
+							<R01>-2.44942447e-16</R01>
+							<R02>-4.37113812e-08</R02>
+							<R10>7.3664304e-15</R10>
+							<R11>1</R11>
+							<R12>1.62920571e-07</R12>
+							<R20>4.37113812e-08</R20>
+							<R21>-1.62920571e-07</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="Enabled">true</bool>
+						<Ref name="Part0">RBX6C71E331AB88472F9F8C3968611AE048</Ref>
+						<Ref name="Part1">RBXD0A6F8F1645746B494CF13F4B3899571</Ref>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">DF2</string>
 						<BinaryString name="SerializedOverrides"></BinaryString>
 						<int64 name="SourceAssetId">-1</int64>
 						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -2441,7 +2189,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_hair</string>
+					<string name="Name">Hair</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -2601,11 +2349,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>2.8421706e-14</R01>
 						<R02>1</R02>
-						<R10>1.69406731e-21</R10>
+						<R10>1.69406771e-21</R10>
 						<R11>1</R11>
 						<R12>-2.8421706e-14</R12>
 						<R20>-1</R20>
-						<R21>2.93641787e-21</R21>
+						<R21>2.93641767e-21</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -2674,7 +2422,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_romeo_body</string>
+					<string name="Name">LeftBody</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -2807,7 +2555,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body2</string>
+					<string name="Name">RightBody</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -2845,153 +2593,20 @@
 						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 					</Properties>
 				</Item>
-			</Item>
-			<Item class="Part" referent="RBX783BCB7E750346EA901897C5C25E7F73">
-				<Properties>
-					<token name="shape">1</token>
-					<token name="formFactorRaw">1</token>
-					<bool name="Anchored">false</bool>
-					<bool name="AudioCanCollide">true</bool>
-					<float name="BackParamA">-0.5</float>
-					<float name="BackParamB">0.5</float>
-					<token name="BackSurface">0</token>
-					<token name="BackSurfaceInput">0</token>
-					<float name="BottomParamA">-0.5</float>
-					<float name="BottomParamB">0.5</float>
-					<token name="BottomSurface">4</token>
-					<token name="BottomSurfaceInput">0</token>
-					<CoordinateFrame name="CFrame">
-						<X>9.86503792</X>
-						<Y>3.87826967</Y>
-						<Z>104.577248</Z>
-						<R00>4.37113883e-08</R00>
-						<R01>2.8421706e-14</R01>
-						<R02>1</R02>
-						<R10>1.6940669e-21</R10>
-						<R11>1</R11>
-						<R12>-2.8421706e-14</R12>
-						<R20>-1</R20>
-						<R21>2.93641847e-21</R21>
-						<R22>4.37113883e-08</R22>
-					</CoordinateFrame>
-					<bool name="CanCollide">true</bool>
-					<bool name="CanQuery">true</bool>
-					<bool name="CanTouch">true</bool>
-					<bool name="CastShadow">true</bool>
-					<string name="CollisionGroup">Default</string>
-					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4287566611</Color3uint8>
-					<PhysicalProperties name="CustomPhysicalProperties">
-						<CustomPhysics>false</CustomPhysics>
-					</PhysicalProperties>
-					<bool name="EnableFluidForces">true</bool>
-					<float name="FrontParamA">-0.5</float>
-					<float name="FrontParamB">0.5</float>
-					<token name="FrontSurface">0</token>
-					<token name="FrontSurfaceInput">0</token>
-					<float name="LeftParamA">-0.5</float>
-					<float name="LeftParamB">0.5</float>
-					<token name="LeftSurface">0</token>
-					<token name="LeftSurfaceInput">0</token>
-					<bool name="Locked">false</bool>
-					<bool name="Massless">false</bool>
-					<token name="Material">288</token>
-					<string name="MaterialVariantSerialized"></string>
-					<CoordinateFrame name="PivotOffset">
-						<X>0</X>
-						<Y>0</Y>
-						<Z>0</Z>
-						<R00>1</R00>
-						<R01>0</R01>
-						<R02>0</R02>
-						<R10>0</R10>
-						<R11>1</R11>
-						<R12>0</R12>
-						<R20>0</R20>
-						<R21>0</R21>
-						<R22>1</R22>
-					</CoordinateFrame>
-					<float name="Reflectance">0</float>
-					<float name="RightParamA">-0.5</float>
-					<float name="RightParamB">0.5</float>
-					<token name="RightSurface">0</token>
-					<token name="RightSurfaceInput">0</token>
-					<int name="RootPriority">0</int>
-					<Vector3 name="RotVelocity">
-						<X>0</X>
-						<Y>0</Y>
-						<Z>0</Z>
-					</Vector3>
-					<float name="TopParamA">-0.5</float>
-					<float name="TopParamB">0.5</float>
-					<token name="TopSurface">3</token>
-					<token name="TopSurfaceInput">0</token>
-					<float name="Transparency">0</float>
-					<Vector3 name="Velocity">
-						<X>0</X>
-						<Y>0</Y>
-						<Z>0</Z>
-					</Vector3>
-					<Vector3 name="size">
-						<X>0.991795242</X>
-						<Y>1.99324787</Y>
-						<Z>0.670991242</Z>
-					</Vector3>
-					<BinaryString name="AttributesSerialize"></BinaryString>
-					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body1</string>
-					<BinaryString name="SerializedOverrides"></BinaryString>
-					<int64 name="SourceAssetId">-1</int64>
-					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-				</Properties>
-				<Item class="SpecialMesh" referent="RBX701FD3176E974D4FADA62F2291988482">
-					<Properties>
-						<token name="MeshType">0</token>
-						<Content name="MeshContent">
-							<null></null>
-						</Content>
-						<Content name="TextureContent">
-							<null></null>
-						</Content>
-						<Vector3 name="Offset">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-						</Vector3>
-						<Vector3 name="Scale">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-						</Vector3>
-						<Vector3 name="VertexColor">
-							<X>1</X>
-							<Y>1</Y>
-							<Z>1</Z>
-						</Vector3>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Mesh</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX14AD69E5A2FF4077BA0326C29CD4414F">
+				<Item class="Weld" referent="RBX85449A4A53B4431999E4942F339D64E1">
 					<Properties>
 						<CoordinateFrame name="C0">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
+							<X>-0.336799622</X>
+							<Y>-0.00208473206</Y>
+							<Z>0.000244140625</Z>
 							<R00>1</R00>
-							<R01>2.01948392e-28</R01>
+							<R01>1.00974196e-27</R01>
 							<R02>0</R02>
-							<R10>2.01948392e-28</R10>
+							<R10>1.00974196e-27</R10>
 							<R11>1</R11>
 							<R12>1.28354937e-28</R12>
 							<R20>0</R20>
-							<R21>1.28354937e-28</R21>
+							<R21>1.28354901e-28</R21>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
@@ -3009,138 +2624,54 @@
 							<R22>1</R22>
 						</CoordinateFrame>
 						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX783BCB7E750346EA901897C5C25E7F73</Ref>
-						<Ref name="Part1">RBX755E66ED0E724DF58C2FFF7FF9084D10</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_body1</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBXB930E3BED52943EF843F6EAE6610048A">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>2.01948392e-28</R01>
-							<R02>0</R02>
-							<R10>2.01948392e-28</R10>
-							<R11>1</R11>
-							<R12>1.28354937e-28</R12>
-							<R20>0</R20>
-							<R21>1.28354937e-28</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX783BCB7E750346EA901897C5C25E7F73</Ref>
-						<Ref name="Part1">RBX6C88826F217C4E0497B76A6AE6750E56</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_body1</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBXD5F336C2FD2344FEA4E6700F7DBEAE2C">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.167182922</X>
-							<Y>0.00438308716</Y>
-							<Z>-0.000244140625</Z>
-							<R00>1</R00>
-							<R01>2.01948392e-28</R01>
-							<R02>0</R02>
-							<R10>2.01948392e-28</R10>
-							<R11>1</R11>
-							<R12>1.28354937e-28</R12>
-							<R20>0</R20>
-							<R21>1.28354937e-28</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX783BCB7E750346EA901897C5C25E7F73</Ref>
-						<Ref name="Part1">RBXE7C0F319D5294561970BD0CAE1E978FA</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_body2</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX2D374E038E17477AA6204982B88BABF3">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.503982544</X>
-							<Y>0.0022983551</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>6.05845175e-28</R01>
-							<R02>0</R02>
-							<R10>4.03896783e-28</R10>
-							<R11>1</R11>
-							<R12>1.28354925e-28</R12>
-							<R20>0</R20>
-							<R21>1.28354937e-28</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX783BCB7E750346EA901897C5C25E7F73</Ref>
+						<Ref name="Part0">RBXE7C0F319D5294561970BD0CAE1E978FA</Ref>
 						<Ref name="Part1">RBXC1DBDE5F78744845819536265D5C855B</Ref>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_romeo_body</string>
+						<string name="Name">LeftBody</string>
+						<BinaryString name="SerializedOverrides"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX0AE3C249566F43518F719BEC1308B716">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0.167182922</X>
+							<Y>-0.00438308716</Y>
+							<Z>0.000244140625</Z>
+							<R00>1</R00>
+							<R01>6.05845175e-28</R01>
+							<R02>0</R02>
+							<R10>6.05845175e-28</R10>
+							<R11>1</R11>
+							<R12>1.28354937e-28</R12>
+							<R20>0</R20>
+							<R21>1.28354925e-28</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="Enabled">true</bool>
+						<Ref name="Part0">RBXE7C0F319D5294561970BD0CAE1E978FA</Ref>
+						<Ref name="Part1">RBX755E66ED0E724DF58C2FFF7FF9084D10</Ref>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Effect</string>
 						<BinaryString name="SerializedOverrides"></BinaryString>
 						<int64 name="SourceAssetId">-1</int64>
 						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -3168,11 +2699,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>2.8421706e-14</R01>
 						<R02>1</R02>
-						<R10>1.69406711e-21</R10>
+						<R10>1.69406731e-21</R10>
 						<R11>1</R11>
 						<R12>-2.8421706e-14</R12>
 						<R20>-1</R20>
-						<R21>2.93641827e-21</R21>
+						<R21>2.93641807e-21</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -3241,7 +2772,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body1</string>
+					<string name="Name">Effect</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -3264,139 +2795,6 @@
 							<X>1.02510166</X>
 							<Y>1.0380199</Y>
 							<Z>1.041682</Z>
-						</Vector3>
-						<Vector3 name="VertexColor">
-							<X>1</X>
-							<Y>1</Y>
-							<Z>1</Z>
-						</Vector3>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">Mesh</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-			</Item>
-			<Item class="Part" referent="RBX6C88826F217C4E0497B76A6AE6750E56">
-				<Properties>
-					<token name="shape">1</token>
-					<token name="formFactorRaw">1</token>
-					<bool name="Anchored">false</bool>
-					<bool name="AudioCanCollide">true</bool>
-					<float name="BackParamA">-0.5</float>
-					<float name="BackParamB">0.5</float>
-					<token name="BackSurface">0</token>
-					<token name="BackSurfaceInput">0</token>
-					<float name="BottomParamA">-0.5</float>
-					<float name="BottomParamB">0.5</float>
-					<token name="BottomSurface">4</token>
-					<token name="BottomSurfaceInput">0</token>
-					<CoordinateFrame name="CFrame">
-						<X>9.86503792</X>
-						<Y>3.87826967</Y>
-						<Z>104.577248</Z>
-						<R00>4.37113883e-08</R00>
-						<R01>2.8421706e-14</R01>
-						<R02>1</R02>
-						<R10>1.69406711e-21</R10>
-						<R11>1</R11>
-						<R12>-2.8421706e-14</R12>
-						<R20>-1</R20>
-						<R21>2.93641827e-21</R21>
-						<R22>4.37113883e-08</R22>
-					</CoordinateFrame>
-					<bool name="CanCollide">true</bool>
-					<bool name="CanQuery">true</bool>
-					<bool name="CanTouch">true</bool>
-					<bool name="CastShadow">true</bool>
-					<string name="CollisionGroup">Default</string>
-					<int name="CollisionGroupId">0</int>
-					<Color3uint8 name="Color3uint8">4287566611</Color3uint8>
-					<PhysicalProperties name="CustomPhysicalProperties">
-						<CustomPhysics>false</CustomPhysics>
-					</PhysicalProperties>
-					<bool name="EnableFluidForces">true</bool>
-					<float name="FrontParamA">-0.5</float>
-					<float name="FrontParamB">0.5</float>
-					<token name="FrontSurface">0</token>
-					<token name="FrontSurfaceInput">0</token>
-					<float name="LeftParamA">-0.5</float>
-					<float name="LeftParamB">0.5</float>
-					<token name="LeftSurface">0</token>
-					<token name="LeftSurfaceInput">0</token>
-					<bool name="Locked">false</bool>
-					<bool name="Massless">false</bool>
-					<token name="Material">288</token>
-					<string name="MaterialVariantSerialized"></string>
-					<CoordinateFrame name="PivotOffset">
-						<X>0</X>
-						<Y>0</Y>
-						<Z>0</Z>
-						<R00>1</R00>
-						<R01>0</R01>
-						<R02>0</R02>
-						<R10>0</R10>
-						<R11>1</R11>
-						<R12>0</R12>
-						<R20>0</R20>
-						<R21>0</R21>
-						<R22>1</R22>
-					</CoordinateFrame>
-					<float name="Reflectance">0</float>
-					<float name="RightParamA">-0.5</float>
-					<float name="RightParamB">0.5</float>
-					<token name="RightSurface">0</token>
-					<token name="RightSurfaceInput">0</token>
-					<int name="RootPriority">0</int>
-					<Vector3 name="RotVelocity">
-						<X>0</X>
-						<Y>0</Y>
-						<Z>0</Z>
-					</Vector3>
-					<float name="TopParamA">-0.5</float>
-					<float name="TopParamB">0.5</float>
-					<token name="TopSurface">3</token>
-					<token name="TopSurfaceInput">0</token>
-					<float name="Transparency">0</float>
-					<Vector3 name="Velocity">
-						<X>0</X>
-						<Y>0</Y>
-						<Z>0</Z>
-					</Vector3>
-					<Vector3 name="size">
-						<X>0.991795242</X>
-						<Y>1.99324787</Y>
-						<Z>0.670991242</Z>
-					</Vector3>
-					<BinaryString name="AttributesSerialize"></BinaryString>
-					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body1</string>
-					<BinaryString name="SerializedOverrides"></BinaryString>
-					<int64 name="SourceAssetId">-1</int64>
-					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-				</Properties>
-				<Item class="SpecialMesh" referent="RBXEE2E420E3A2046B7867126B7B7467D69">
-					<Properties>
-						<token name="MeshType">0</token>
-						<Content name="MeshContent">
-							<null></null>
-						</Content>
-						<Content name="TextureContent">
-							<null></null>
-						</Content>
-						<Vector3 name="Offset">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-						</Vector3>
-						<Vector3 name="Scale">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
 						</Vector3>
 						<Vector3 name="VertexColor">
 							<X>1</X>
@@ -3534,11 +2932,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>2.8421706e-14</R01>
 						<R02>1</R02>
-						<R10>1.6940669e-21</R10>
+						<R10>1.69406731e-21</R10>
 						<R11>1</R11>
 						<R12>-2.8421706e-14</R12>
 						<R20>-1</R20>
-						<R21>2.93641847e-21</R21>
+						<R21>2.93641827e-21</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -3607,7 +3005,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_romeo_body1</string>
+					<string name="Name">Sleeve</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -3740,7 +3138,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_romeo_body</string>
+					<string name="Name">LArm</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -3778,20 +3176,20 @@
 						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 					</Properties>
 				</Item>
-				<Item class="Weld" referent="RBX3B888A08521E4DB18AB00DC2EC17892B">
+				<Item class="Weld" referent="RBX484346E3E7EB4A0787489AD628335F85">
 					<Properties>
 						<CoordinateFrame name="C0">
 							<X>0</X>
 							<Y>1.01188087</Y>
 							<Z>0</Z>
 							<R00>1</R00>
-							<R01>2.01948392e-28</R01>
+							<R01>4.03896783e-28</R01>
 							<R02>0</R02>
-							<R10>2.01948392e-28</R10>
+							<R10>6.05845175e-28</R10>
 							<R11>1</R11>
 							<R12>1.28354937e-28</R12>
 							<R20>0</R20>
-							<R21>1.28354937e-28</R21>
+							<R21>1.28354925e-28</R21>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
@@ -3814,7 +3212,7 @@
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_romeo_body1</string>
+						<string name="Name">Sleeve</string>
 						<BinaryString name="SerializedOverrides"></BinaryString>
 						<int64 name="SourceAssetId">-1</int64>
 						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -3942,11 +3340,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>2.8421706e-14</R01>
 						<R02>1</R02>
-						<R10>1.69406751e-21</R10>
+						<R10>1.69406771e-21</R10>
 						<R11>1</R11>
 						<R12>-2.8421706e-14</R12>
 						<R20>-1</R20>
-						<R21>2.93641807e-21</R21>
+						<R21>2.93641787e-21</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -4015,7 +3413,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body1</string>
+					<string name="Name">Effect2</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -4148,7 +3546,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body2</string>
+					<string name="Name">UpperArm</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -4186,6 +3584,132 @@
 						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 					</Properties>
 				</Item>
+				<Item class="Weld" referent="RBX7A08796B3E56468CAF349E5B17BD3349">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0.00612640381</X>
+							<Y>-0.990398407</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>1.61558713e-27</R01>
+							<R02>0</R02>
+							<R10>1.41363874e-27</R10>
+							<R11>1</R11>
+							<R12>1.28354937e-28</R12>
+							<R20>0</R20>
+							<R21>1.28354877e-28</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="Enabled">true</bool>
+						<Ref name="Part0">RBX2977E3EA09D7436D90776280B7EEB814</Ref>
+						<Ref name="Part1">RBX9E8BBF54834F47E9AF6999E6C7EB5A14</Ref>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">LowerArm</string>
+						<BinaryString name="SerializedOverrides"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBX7A93982DDFD841C4A041DD845B40BDC4">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>0.078704834</X>
+							<Y>0.0900640488</Y>
+							<Z>-0.00384521484</Z>
+							<R00>1</R00>
+							<R01>8.07793567e-28</R01>
+							<R02>0</R02>
+							<R10>1.00974196e-27</R10>
+							<R11>1</R11>
+							<R12>1.28354937e-28</R12>
+							<R20>0</R20>
+							<R21>1.28354913e-28</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="Enabled">true</bool>
+						<Ref name="Part0">RBX2977E3EA09D7436D90776280B7EEB814</Ref>
+						<Ref name="Part1">RBX5663CFF3426A43A189A73BD6A896ADDF</Ref>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Effect2</string>
+						<BinaryString name="SerializedOverrides"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					</Properties>
+				</Item>
+				<Item class="Weld" referent="RBXAEF5EB4CC4F14F888FD7DC39E0522878">
+					<Properties>
+						<CoordinateFrame name="C0">
+							<X>-0.000617980957</X>
+							<Y>-0.988085747</Y>
+							<Z>-0.0863647461</Z>
+							<R00>1</R00>
+							<R01>1.00974196e-27</R01>
+							<R02>0</R02>
+							<R10>1.41363874e-27</R10>
+							<R11>1</R11>
+							<R12>1.28354937e-28</R12>
+							<R20>0</R20>
+							<R21>1.28354901e-28</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<CoordinateFrame name="C1">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="Enabled">true</bool>
+						<Ref name="Part0">RBX2977E3EA09D7436D90776280B7EEB814</Ref>
+						<Ref name="Part1">RBX8343FE0DC06445A098ECA93D49EFB9C3</Ref>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<string name="Name">Effect1</string>
+						<BinaryString name="SerializedOverrides"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+					</Properties>
+				</Item>
 			</Item>
 			<Item class="Part" referent="RBX8343FE0DC06445A098ECA93D49EFB9C3">
 				<Properties>
@@ -4208,11 +3732,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>2.8421706e-14</R01>
 						<R02>1</R02>
-						<R10>1.69406731e-21</R10>
+						<R10>1.69406812e-21</R10>
 						<R11>1</R11>
 						<R12>-2.8421706e-14</R12>
 						<R20>-1</R20>
-						<R21>2.93641827e-21</R21>
+						<R21>2.93641767e-21</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -4281,7 +3805,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body</string>
+					<string name="Name">Effect1</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -4319,132 +3843,6 @@
 						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
 					</Properties>
 				</Item>
-				<Item class="Weld" referent="RBX1DCF25C73D0E445FBE561C6580394614">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>0.0793228149</X>
-							<Y>1.0781498</Y>
-							<Z>0.0825195312</Z>
-							<R00>1</R00>
-							<R01>2.01948392e-28</R01>
-							<R02>0</R02>
-							<R10>2.01948392e-28</R10>
-							<R11>1</R11>
-							<R12>1.28354937e-28</R12>
-							<R20>0</R20>
-							<R21>1.28354937e-28</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX8343FE0DC06445A098ECA93D49EFB9C3</Ref>
-						<Ref name="Part1">RBX5663CFF3426A43A189A73BD6A896ADDF</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_body1</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX515D0F959F0E49B0A9657A5004854D65">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>0.000617980957</X>
-							<Y>0.988085747</Y>
-							<Z>0.0863647461</Z>
-							<R00>1</R00>
-							<R01>6.05845175e-28</R01>
-							<R02>0</R02>
-							<R10>4.03896783e-28</R10>
-							<R11>1</R11>
-							<R12>1.28354925e-28</R12>
-							<R20>0</R20>
-							<R21>1.28354937e-28</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX8343FE0DC06445A098ECA93D49EFB9C3</Ref>
-						<Ref name="Part1">RBX2977E3EA09D7436D90776280B7EEB814</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_body2</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX7C4AB6A188FF4240B34791E6E84E1C78">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>0.00674438477</X>
-							<Y>-0.00231266022</Y>
-							<Z>0.0863647461</Z>
-							<R00>1</R00>
-							<R01>1.00974196e-27</R01>
-							<R02>0</R02>
-							<R10>6.05845175e-28</R10>
-							<R11>1</R11>
-							<R12>1.28354925e-28</R12>
-							<R20>0</R20>
-							<R21>1.28354937e-28</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBX8343FE0DC06445A098ECA93D49EFB9C3</Ref>
-						<Ref name="Part1">RBX9E8BBF54834F47E9AF6999E6C7EB5A14</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_body3</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
 			</Item>
 			<Item class="Part" referent="RBX9E8BBF54834F47E9AF6999E6C7EB5A14">
 				<Properties>
@@ -4467,11 +3865,11 @@
 						<R00>4.37113883e-08</R00>
 						<R01>2.8421706e-14</R01>
 						<R02>1</R02>
-						<R10>1.69406791e-21</R10>
+						<R10>1.69406812e-21</R10>
 						<R11>1</R11>
 						<R12>-2.8421706e-14</R12>
 						<R20>-1</R20>
-						<R21>2.93641726e-21</R21>
+						<R21>2.93641706e-21</R21>
 						<R22>4.37113883e-08</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
@@ -4540,7 +3938,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body3</string>
+					<string name="Name">LowerArm</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -4773,7 +4171,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_romeo_body</string>
+					<string name="Name">LeftLeg</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -5006,7 +4404,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body</string>
+					<string name="Name">Effect</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -5039,48 +4437,6 @@
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 						<bool name="DefinesCapabilities">false</bool>
 						<string name="Name">Mesh</string>
-						<BinaryString name="SerializedOverrides"></BinaryString>
-						<int64 name="SourceAssetId">-1</int64>
-						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
-					</Properties>
-				</Item>
-				<Item class="Weld" referent="RBX8EA44C3E6CCE4E8AAD9949ABCF1B03D7">
-					<Properties>
-						<CoordinateFrame name="C0">
-							<X>-0.00222015381</X>
-							<Y>0.00247192383</Y>
-							<Z>0.016418457</Z>
-							<R00>1</R00>
-							<R01>2.01948392e-28</R01>
-							<R02>0</R02>
-							<R10>2.01948392e-28</R10>
-							<R11>1</R11>
-							<R12>1.28354937e-28</R12>
-							<R20>0</R20>
-							<R21>1.28354937e-28</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<CoordinateFrame name="C1">
-							<X>0</X>
-							<Y>0</Y>
-							<Z>0</Z>
-							<R00>1</R00>
-							<R01>0</R01>
-							<R02>0</R02>
-							<R10>0</R10>
-							<R11>1</R11>
-							<R12>0</R12>
-							<R20>0</R20>
-							<R21>0</R21>
-							<R22>1</R22>
-						</CoordinateFrame>
-						<bool name="Enabled">true</bool>
-						<Ref name="Part0">RBXCC5B0FE61ADC40F887230F3A1E7A42FE</Ref>
-						<Ref name="Part1">RBXAD006CBA9216476DA17BE9F983B9BF3E</Ref>
-						<BinaryString name="AttributesSerialize"></BinaryString>
-						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
-						<bool name="DefinesCapabilities">false</bool>
-						<string name="Name">skM1_admin_body1</string>
 						<BinaryString name="SerializedOverrides"></BinaryString>
 						<int64 name="SourceAssetId">-1</int64>
 						<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -5181,7 +4537,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">skM1_admin_body1</string>
+					<string name="Name">RightLeg</string>
 					<BinaryString name="SerializedOverrides"></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<SharedString name="Tags">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
@@ -5236,18 +4592,18 @@
 				<token name="BottomSurface">0</token>
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
-					<X>9.67453289</X>
-					<Y>2.96785998</Y>
-					<Z>107.48616</Z>
-					<R00>0.999996901</R00>
+					<X>9.98600006</X>
+					<Y>3.90899992</Y>
+					<Z>104.780998</Z>
+					<R00>1</R00>
 					<R01>0</R01>
-					<R02>-4.37115091e-08</R02>
+					<R02>-4.37116441e-08</R02>
 					<R10>0</R10>
 					<R11>1</R11>
 					<R12>0</R12>
-					<R20>4.37115091e-08</R20>
-					<R21>0</R21>
-					<R22>0.999996901</R22>
+					<R20>4.37116441e-08</R20>
+					<R21>-0</R21>
+					<R22>1</R22>
 				</CoordinateFrame>
 				<bool name="CanCollide">true</bool>
 				<bool name="CanQuery">true</bool>
